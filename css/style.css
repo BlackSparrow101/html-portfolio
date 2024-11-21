@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: navy;
+  font-weight: bolder;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: navy;
+  font-weight: bolder;
+}
+#cloud1 {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+#cloud2 {
+  position: absolute;
+  left: 250px;
+  bottom: 200px;
+}
+.topcontainer {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  background-image: url('argosybackground1.png'),
+  url('argosybackground2.png');
+}
+.profile {
+  width: 50%;
+  text-align: center;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.imgskill1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.imgskill2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+.bottom-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contact-me {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+a {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 2px;
+  color: #E4F9F5;
+}
+a:hover {
+  color: navy;
+  text-decoration:
+}
